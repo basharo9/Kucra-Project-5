@@ -6,4 +6,16 @@
 
 body {
   background-color: aqua;
+}
+
+nav {
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.kurcaNav ul li a:hover {
+  color: #F57A71;
 }/*# sourceMappingURL=style.css.map */
