@@ -1,10 +1,13 @@
 nav {
+   width: 100%;
+   height: 80px;
    color: #000;
    font-size: 15px;
    font-weight: 600;
    letter-spacing: 0.6px;
    text-transform: uppercase;
-   // z-index: 33;
+   position: sticky;
+   top: 0;
 }
 
 .kurcaNav{
@@ -17,3 +20,67 @@ nav {
    }
 }
 
+//----------- footer start
+footer{
+   width: 100%;
+   height: 30vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.midea {
+    ul{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      li{
+         list-style: none;
+         margin: 10px;
+         width: 40px;
+         height: 40px;
+         border: 1px solid $footerTextColor;
+         border-radius: 50%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         transition: all 0.6s;
+         a{
+            color: $footerTextColor;
+            transition: all 0.6s;
+         }
+      }
+      li:hover{
+         border:1px solid  $textColorOne;
+      }
+      li:hover a{
+         color: $textColorOne;
+      }
+    }
+}
+
+.policy{
+  ul{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      li{
+         color: $footerTextColor;
+         padding: 0 30px;
+         font-weight: 500;
+      }
+      .priva{
+         border-left: 1px solid $footerTextColor;
+         border-right: 1px solid $footerTextColor;
+      }
+      
+  }  
+}
+
+.landing p{
+  color: $footerTextColor;
+  text-align: center;
+  a{
+   color: $footerTextColor;
+  }
+}

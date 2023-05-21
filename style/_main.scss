@@ -1,10 +1,7 @@
-// ------------- We are section start ///
+// ------------- Home section start ///
 #home{
    background-color: $bgColorOne;
    width: 100%;
-   // height: 100vh;
-   padding-top: 160px;
-   padding-bottom: 50px;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -50,10 +47,34 @@
    font-weight: 500;
    border: 0;
    border-radius: 30px;
-   transition: all 0.6s;
+   transition: all 0.5s;
 }
 
 .subBtn:hover {
    transform:translate(0px ,-6px) ;
 }
-// ------------- We are section end ///
+
+// ------------- Home section end ///
+
+// ------------- Features section end ///
+ #features {
+   background-color: $bgColorFive;
+   padding: 80px 0;
+ }
+
+ .i-circel{
+   width: 64px;
+   height: 64px;
+   border-radius: 50%;
+   background-color:$bgColorOne;
+   color: $textColorOne;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight:bold;
+ }
+
+// .my-card:hover .learn{
+//   display: block;
+// }
+// ------------- Features section end ///
