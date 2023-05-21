@@ -159,4 +159,30 @@ footer {
   align-items: center;
   justify-content: center;
   font-weight: bold;
+}
+
+#videoSection {
+  background-image: url(/images/bg-cta01.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.conta {
+  position: relative;
+  z-index: 33;
+}
+
+.blackdiv {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(9, 9, 9, 0.6823529412);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.9;
+  z-index: 1;
 }/*# sourceMappingURL=style.css.map */
