@@ -1,0 +1,59 @@
+// ------------- We are section start ///
+#home{
+   background-color: $bgColorOne;
+   width: 100%;
+   // height: 100vh;
+   padding-top: 160px;
+   padding-bottom: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.awes {
+   h6 {
+      color: $textColorOne;
+      letter-spacing: 6px;
+   }
+   h1 {
+      font-weight: 500;
+      line-height: 1.3;
+   }
+   p {
+    color: $textColorFive;
+    font-size: 17px;
+   }
+}
+
+.e-inp{
+   width: 100%;
+   height: 55px;
+   padding: 0 4px;
+   border-radius: 30px;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   input{
+      border: 0;
+      background-color: transparent;
+   }
+}
+.subBtn{
+   width: 55%;
+   height: 80%;
+   // margin: auto;
+   color: #fff;
+   background-color:$textColorOne;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: 500;
+   border: 0;
+   border-radius: 30px;
+   transition: all 0.6s;
+}
+
+.subBtn:hover {
+   transform:translate(0px ,-6px) ;
+}
+// ------------- We are section end ///
