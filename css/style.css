@@ -185,4 +185,33 @@ footer {
   bottom: 0;
   opacity: 0.9;
   z-index: 1;
+}
+
+#clint {
+  background-image: url(/images/bg.jpg);
+  background-size: cover;
+}
+
+.clintImg {
+  position: relative;
+}
+.clintImg img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.quoteIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 11px;
+  right: -10px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3F8EFC;
+  font-size: 25px;
 }/*# sourceMappingURL=style.css.map */
