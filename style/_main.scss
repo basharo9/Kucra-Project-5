@@ -148,3 +148,26 @@
    font-size: 25px;
 }
 // ------------- client says section start ///
+
+// ------------- Pricing section start ///
+#pricing{
+   background-color:$bgColorSix ;
+}
+
+.priceCard{
+   overflow: hidden;
+}
+.top{
+   width: 160px;
+   height: 70px;
+   background-color:$textColorOne;
+   position: absolute;
+   top: -16px;
+   right: -50px;
+   transform: rotate(45deg);
+   border-radius: 50%;
+   text-align: center;
+   color: #fff;
+   padding-top:40px ;
+}
+// ------------- Pricing section end ///

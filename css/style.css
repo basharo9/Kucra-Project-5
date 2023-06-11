@@ -229,4 +229,26 @@ footer {
   justify-content: center;
   color: #3F8EFC;
   font-size: 25px;
+}
+
+#pricing {
+  background-color: #f0f0f0;
+}
+
+.priceCard {
+  overflow: hidden;
+}
+
+.top {
+  width: 160px;
+  height: 70px;
+  background-color: #3F8EFC;
+  position: absolute;
+  top: -16px;
+  right: -50px;
+  transform: rotate(45deg);
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  padding-top: 40px;
 }/*# sourceMappingURL=style.css.map */
