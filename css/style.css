@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: aqua;
+  background-color: #fff;
 }
 
 section {
@@ -251,4 +251,20 @@ footer {
   text-align: center;
   color: #fff;
   padding-top: 40px;
+}
+
+.qIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: rgba(63, 142, 252, 0.1803921569);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.questionDiv {
+  padding: 40px;
+  background-color: #f0f0f0;
+  border-radius: 7px;
 }/*# sourceMappingURL=style.css.map */
