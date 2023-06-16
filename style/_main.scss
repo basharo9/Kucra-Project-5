@@ -187,8 +187,8 @@
    background-color:$bgColorSix;
    border-radius: 7px;
 }
-//------------- Help Section end    ///
 
+//------------- Dynamic Team section start   ///
 .teamProfile{
    width: 210px;
    height: 210px;
@@ -207,3 +207,12 @@
    // }
 }
  
+
+//------------ Let's get  Section start
+#getSection{
+   background-image: url(/images/bg-cta02.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   position: relative;
+}

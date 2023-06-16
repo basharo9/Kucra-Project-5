@@ -282,4 +282,12 @@ footer {
   border: 5px solid #fff;
   margin: auto;
   outline: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#getSection {
+  background-image: url(/images/bg-cta02.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
 }/*# sourceMappingURL=style.css.map */
